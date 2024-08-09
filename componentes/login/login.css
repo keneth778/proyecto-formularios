@@ -1,0 +1,143 @@
+.box-login{
+    width: 100%;
+    max-width: 120rem;
+    height: 60rem;
+    margin: auto;
+    margin-top: 3%;
+    border: 1px solid black;
+
+    display: grid;
+    grid-template-columns: 50rem auto;
+   
+}
+
+.box-login .formulario{
+    height: 70%;
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(8,1fr);
+    grid-template-rows: repeat(8,1fr);
+
+    gap: 1rem;
+
+    
+}
+
+.box-login .logo{
+    grid-column: 1/9;
+}
+.box-login h2{
+    grid-column: 1/9;
+}
+.box-login .btn-facebook{
+    grid-column: 1/4;
+    border: solid blue;
+    height: 30%;
+    width: 70%;
+    border-radius: 5px;
+    background-color: blue;
+    color: white;
+}
+
+.box-login .btn-xing{
+    grid-column: 4/8;
+    border: solid black;
+    height: 30%;
+    width: 35%;
+    border-radius: 5px;
+    background-color: black;
+    color: white;
+}
+.box-login span{
+    grid-column: 1/9;
+    grid-row: 4/9;
+    padding: 20px;
+    margin-top: -80px;
+}
+#login{
+    grid-column: 1/6;
+    grid-row: 4/5;
+}
+#login label{
+    color: gray;
+    display: flex;
+    flex-direction: column;
+}
+.yo{
+    grid-row: 5/87;
+}
+#login input{
+    height: 4rem;
+    border: none;
+    outline: none;
+    color: black;
+    border-bottom: 2px solid blueviolet;
+    font-size: 2rem;
+    font-weight: 600;
+    
+}
+#login .opciones{
+    display: flex;    
+}
+.nose{
+    display: flex;
+    justify-content: center;
+}
+#login .opciones label {
+    font-size: 1.3rem;
+    display: flex; 
+    margin-top: 10px; 
+    gap: 1rem; /* Ajusta el espacio entre el texto y el input */
+}
+
+#login .opciones label input {
+    width: 1rem;
+    
+}
+
+#login .opciones .remember-forgot {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+}
+.actions {
+    display: flex;
+    justify-content: space-between;
+}
+
+.actions .login-btn,
+.actions .signup-btn {
+    padding: 0.5rem 1rem;
+    border: none;
+    border-radius: 4px;
+    font-size: 1rem;
+    cursor: pointer;
+}
+
+.actions .login-btn {
+    background: linear-gradient(to right, #a270e3, #fdb99b);
+    border: none;
+    border-radius: 2px;
+    padding: 0.5rem 1.5rem;
+    font-size: 1rem;
+    color: #fff;
+    cursor: pointer;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: background 0.3s ease;
+}
+
+.actions .signup-btn {
+    background: #fff;
+    border: 1px solid #ccc;
+    color: #666;
+}
+.banner{
+   height: 60rem;
+}
+.banner img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: right;
+}

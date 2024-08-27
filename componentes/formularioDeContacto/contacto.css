@@ -1,0 +1,61 @@
+body {
+    font-family: Arial, sans-serif;
+    background-image: url('https://www.tusoporteonline.es/blog/wp-content/uploads/2014/02/naturaleza.jpg'); 
+    background-size: cover; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.formulario-contacto {
+    background-color: #060616;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 400px;
+}
+
+.formulario-contacto h2 {
+    margin-bottom: 15px;
+    color: wheat;
+}
+
+.grupo-formulario {
+    margin-bottom: 15px;
+}
+
+.grupo-formulario label {
+    display: block;
+    margin-bottom: 5px;
+    color: wheat;
+}
+
+.grupo-formulario input, .grupo-formulario textarea {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ddd;
+    border-radius: 3px;
+    box-sizing: border-box;
+}
+
+.grupo-formulario input:focus, .grupo-formulario textarea:focus {
+    border-color: #007bff;
+    outline: none;
+}
+
+button {
+    width: 100%;
+    padding: 10px;
+    background-color: #007bff;
+    border: none;
+    color: #fff;
+    border-radius: 3px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
